@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>empre-envios. - Cotizaciones</title>
+</head>
+<body>
+    <h1>empre-envios.- Cotizaciones</h1>
+    <p>Hola! Cómo estás? Acá vas a poder cotizar cualquier envío o retiro que tengas que hacer! Puede ser algún envío por ventas de tu emprendimiento, mandarle algo a un amigo o simplemente tener que retirar algo.</p>
+    <p>Si tenes que realizar varios envíos desde un mismo origen, vas a poder agregar todas las direcciones que quieras al momento de cargarlo. Lo mismo si tenés que retirar varias cosas en distintos lugares y llevarlo a una misma dirección.</p>
+    <p>Si crees que nos falta algo o cualquier cosa que podamos mejorar, escribilo en la parte de comentarios.</p>
+
+    <div>Por el momento abarcamos CABA, Vicente Lopez, San Isidro y Tigre. De a poco vamos a llegar a más lugares! :)</div>
+
+    <h2>Cotizador rápido</h2>
+
+    <span id="form">Localidad de retiro</span>
+    <input type="text" id="localidadUno" class="verificacion">
+    <span>Localidad de entrega</span>
+    <input type="text" id="localidadDos" class="verificacion">
+    
+    <button disabled = "disabled" onclick="calculoFinal()">Cotizar envío</button>
+
+    <script src="./jquery.js"></script>
+    <script src="./index.js"></script>
+
+</body>
+</html>
